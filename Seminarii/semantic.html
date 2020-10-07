@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<!--
+    CSS priority order:
+    1.inline
+    2.external and internal
+    3.browser default
+-->
+
+<head>
+    <title>
+        Semantic HTML
+    </title>
+    <meta name="author" content="1093">
+    <meta name="description" content="semantic html5 example">
+    <meta name="keywords" content="teaching, HTML5, multimedia">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Semantic elements</h2>
+    </header>
+
+    <nav>
+        <a class="nav_a" href="#">Audio</a>
+        <a id="video_a_id" href="#">Video</a>
+        <a class="nav_a" href="#">Article</a>
+        <a href="#">Iframe</a>
+    </nav>
+
+
+    <div style="display:flex;">
+        <aside>
+            <div><a href="#">Audio</a></div>
+            <div><a href="#">Video</a></div>
+            <div><a href="#">Article</a></div>
+            <div><a href="#">Iframe</a></div>
+            <div><a href="#">Go to the index page</a></div>
+        </aside>
+<br>
+<br>
+        <main>
+            <!--audio-->
+            <section>
+                <h4>Audio tag</h4>
+                <audio controls>
+                    <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_OOG_1MG.ogg"
+                        type="audio/ogg">
+                    Your browser does not support HTML audio.
+                </audio>
+            </section>
+            <br>
+            <hr>
+            <br>
+
+
+
+            <!--video-->
+            <section>
+                <h4>Video tag</h4>
+                <video controls>
+                    <source src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4"
+                        type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </section>
+            <br>
+            <hr>
+            <br>
+
+
+            <!--article-->
+            <section>
+                <h4>
+                    Article Tag
+                </h4>
+                <article>
+                    <h5>Some h5</h5>
+                    <small>Posted on wednesday</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam libero, a magni ea eaque
+                        officiis quibusdam perspiciatis vitae quod, quis blanditiis provident voluptatum! Sint placeat
+                        numquam magnam ullam cupiditate!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nam libero, a magni ea eaque
+                        officiis quibusdam perspiciatis vitae quod, quis blanditiis provident voluptatum! Sint placeat
+                        numquam magnam ullam cupiditate!</p>
+                </article>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus culpa ab perferendis, nostrum debitis
+                    rem
+                    at, molestias esse accusamus rerum a quos sunt facere minima asperiores, temporibus quia quis est.
+                </article>
+                <article>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus culpa ab perferendis, nostrum debitis
+                    rem
+                    at, molestias esse accusamus rerum a quos sunt facere minima asperiores, temporibus quia quis est.
+                </article>
+            </section>
+            <br>
+            <hr>
+            <br>
+
+<!--Iframe-->
+
+
+<section>
+    <h4>Iframe tag</h4>
+    <iframe width="629" height="354" src="https://www.youtube.com/embed/3LA5Ii9_e60"></iframe>
+</section>
+
+            
+
+
+
+        </main>
+    </div>
+    <footer>
+        It ain't much, but it's honest work!
+    </footer>
+</body>
+
+</html>
